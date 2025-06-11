@@ -11,7 +11,7 @@ This project uses a custom fruit detection dataset created with [Roboflow](https
 
 You can download the dataset directly from Roboflow using the following link:
 
-👉 [Download Dataset from Roboflow]([https://universe.roboflow.com/fruitsdetection/fruits-by-yolo](https://app.roboflow.com/foodobjectdetection-gbrbd/foodobjectdetectiondataset/1/export))
+👉 [Download Dataset from Roboflow](https://app.roboflow.com/foodobjectdetection-gbrbd/foodobjectdetectiondataset)
 
 Alternatively, you can paste the following code into your Colab notebook:
 
