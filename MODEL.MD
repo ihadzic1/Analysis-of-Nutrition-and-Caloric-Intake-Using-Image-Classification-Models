@@ -6,7 +6,7 @@ This folder contains the trained YOLOv8 model used for object detection.
 
 The model is available on Google Drive at the following link:
 
-[Google Drive - Trained YOLOv8 Model]()
+[Google Drive - Trained YOLOv8 Model](https://drive.google.com/file/d/1HP2UGlYNiY_5PikltdCLkPCFcNkzM5Pn/view?usp=drive_link)
 
 ---
 
