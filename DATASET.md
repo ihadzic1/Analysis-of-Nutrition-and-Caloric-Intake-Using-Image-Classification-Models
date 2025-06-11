@@ -2,8 +2,7 @@
 
 This project uses a custom fruit detection dataset created with [Roboflow](https://roboflow.com/).
 
-> Dataset provided by **Fruitsdetection** via Roboflow Universe  
-> 🔗 [Fruits by YOLO Dataset]([[https://universe.roboflow.com/fruitsdetection/fruits-by-yolo](https://app.roboflow.com/foodobjectdetection-gbrbd/fruitsglavnidatasetmergani/1)](https://app.roboflow.com/foodobjectdetection-gbrbd/foodobjectdetectiondataset/1))
+> A custom Roboflow dataset merged with a publicly available dataset from Roboflow Universe.
 
 ---
 
