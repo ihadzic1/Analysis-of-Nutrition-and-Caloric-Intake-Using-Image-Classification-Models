@@ -26,7 +26,8 @@ Evaluation Metrics:
 > mAP@0.5 (mean Average Precision at IoU 0.5 — measures detection accuracy at 50% overlap),<br>
 > mAP@0.5:0.95 (average precision over IoU thresholds from 0.5 to 0.95 — more comprehensive accuracy measure),<br>
 > Precision (ratio of correctly detected objects to all detected objects — how precise the predictions are),<br>
-> Recall (ratio of correctly detected objects to all actual objects — how well the model finds all objects)
+> Recall (ratio of correctly detected objects to all actual objects — how well the model finds all objects),<br>
+> F1-score (harmonic mean of Precision and Recall — balances precision and recall in one metric)
 
 ---
 
@@ -51,7 +52,8 @@ The repository includes:
 >>mAP@0.5,
 >>mAP@0.5:0.95,
 >>Precision,
->>Recall
+>>Recall,
+>>F1-score
 >>and their visualizations (See more in evaluationmetrics/evaluation.md and find accompanying plots in the evaluationmetrics folder)
 
 >Confusion matrix (evaluationmetrics/confusion_matrix.png)
