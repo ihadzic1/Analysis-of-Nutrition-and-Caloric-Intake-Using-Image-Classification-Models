@@ -218,6 +218,15 @@ for cls, count in counts.items():
 print(f"\nTotal number of calories: {total_calories} cal")
 ``` 
 
+## Contact
+
+For questions or collaborations, feel free to reach out:
+
+- Email:
+- fmuratovic@etf.unsa.ba,
+- ihadzic1@etf.unsa.ba,
+- hsahinovic@etf.unsa.ba,
+- tdukic1@etf.unsa.ba
 
 
 
