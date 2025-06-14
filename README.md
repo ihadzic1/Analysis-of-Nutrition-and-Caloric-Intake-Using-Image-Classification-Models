@@ -12,7 +12,7 @@ Context:
 
 
 Relevant datasets and sources include:
->Custom Roboflow dataset and a dataset from Roboflow Universe (See more in DATASET.md),
+>Custom Roboflow dataset and a dataset from Roboflow Universe (See more in DATASET.md), <br>
 >USDA FoodData Central (Caloric information)
 
 ---
@@ -23,10 +23,10 @@ The solution uses YoloV8 for object detection fine tuned specifically for food d
 Caloric estimates are computed using the classified label and corresponding entries from the OpenFoodFacts database.
 
 Evaluation Metrics:
->mAP@0.5,
->mAP@0.5:0.95,
->Precision,
->Recall
+> mAP@0.5 (mean Average Precision at IoU 0.5 — measures detection accuracy at 50% overlap),<br>
+> mAP@0.5:0.95 (average precision over IoU thresholds from 0.5 to 0.95 — more comprehensive accuracy measure),<br>
+> Precision (ratio of correctly detected objects to all detected objects — how precise the predictions are),<br>
+> Recall (ratio of correctly detected objects to all actual objects — how well the model finds all objects)
 
 ---
 
@@ -51,7 +51,8 @@ The repository includes:
 >>mAP@0.5,
 >>mAP@0.5:0.95,
 >>Precision,
->>Recall (See more in evaluationmetrics/evaluation.md)
+>>Recall
+>>and their visualizations (See more in evaluationmetrics/evaluation.md and find accompanying plots in the evaluationmetrics folder)
 
 >Confusion matrix (evaluationmetrics/confusion_matrix.png)
 
