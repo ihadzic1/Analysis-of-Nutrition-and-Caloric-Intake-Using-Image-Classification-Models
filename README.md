@@ -12,7 +12,7 @@ Context:
 
 
 Relevant datasets and sources include:
->Custom Roboflow dataset and a datset from Roboflow Universe (See more in DATASET.md),
+>Custom Roboflow dataset and a dataset from Roboflow Universe (See more in DATASET.md),
 >USDA FoodData Central (Caloric information)
 
 ---
@@ -34,14 +34,14 @@ Evaluation Metrics:
 The data is labeled accurately using bounding boxes
 
 Preprocessed using: 
->resizing to 640x640
->and auto-orient
+>-resizing to 640x640 (resizes all images to 640×640 pixels; this is the standard input resolution expected by YOLOv8 models) <br>
+>-auto-orient (automatically adjusts the image orientation based on its EXIF metadata; for example, rotates images that were taken upside down or sideways)
 
 Augmented using:
->horizontal and vertical flips,
->90° rotations (clockwise, counter-clockwise, upside down),
->crop (0% minimum zoom, 20% maximum zoom),
->and rotation (between -15° and +15°)
+>-horizontal and vertical flips (mirrors the image horizontally and/or vertically to simulate different viewing angles and improve model generalization)<br>
+>-90° rotations (clockwise, counter-clockwise, upside down) (rotates the image by 90 degrees clockwise or counterclockwise, helping the model learn from different orientations)<br>
+>-crop (0% minimum zoom, 20% maximum zoom) (removes parts of the image edges, focusing on central or random regions to simulate zoom or partial views of the object)<br>
+>-rotation (between -15° and +15°) (rotates the image by a random angle — not limited to 90° — to expose the model to varied object orientations)
 
 ---
 
