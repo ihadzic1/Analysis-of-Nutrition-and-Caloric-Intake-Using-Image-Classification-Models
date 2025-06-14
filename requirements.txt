@@ -1,3 +1,7 @@
+#important libraries
+!pip install ultralytics roboflow -q
+!zip -r best_model_x.zip runs/detect/train/weights/
+
 import os
 import numpy as np
 import pandas as pd
