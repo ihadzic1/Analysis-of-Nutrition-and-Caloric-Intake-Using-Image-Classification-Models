@@ -19,4 +19,24 @@ The model is available on Google Drive at the following link:
 
 ---
 
+## Model Architecture
+
+### YOLOv8 Architecture – Key Components
+
+- **Conv**  
+  Standard convolutional layer used to extract features from the input image using kernels, stride, and padding.
+
+- **C2f**  
+  "Cross Stage Partial with 2 convolution blocks" – an efficient variant of CSP blocks that reduces the number of parameters while maintaining performance.
+
+- **Concat**  
+  Concatenates tensors from different layers to combine multi-scale feature information (commonly used in encoder-decoder skip connections).
+
+- **Upsample**  
+  Increases the spatial resolution of feature maps (usually via nearest-neighbor interpolation) to enable fusion with higher-resolution features.
+
+- **Detect**  
+  The final detection head that predicts bounding box coordinates, object classes, and confidence scores for each detected object.
+
+
 If you have any questions, feel free to reach out!
