@@ -221,7 +221,7 @@ for cls, count in counts.items():
 
 print(f"\nTotal number of calories: {total_calories} cal")
 ```
-Our Results:
+## Our Results:
 
 ![download (1)](https://github.com/user-attachments/assets/4f48eb30-1dc6-4393-aef9-663c564815ff)
 ![download (2)](https://github.com/user-attachments/assets/1ce63698-769c-4132-95b7-1d7af004b3b0)
