@@ -38,6 +38,6 @@ The model is available on Google Drive at the following link:
 - **Detect**  
   The final detection head that predicts bounding box coordinates, object classes, and confidence scores for each detected object.
 
-![YOLOv8 Architecture](model_architecture.png)
+![YOLOv8 Architecture](model/model_architecture.png)
 
 If you have any questions, feel free to reach out!
