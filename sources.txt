@@ -1,0 +1,4 @@
+Roboflow:     Roboflow official website – https://roboflow.com/
+              Our dataset – https://app.roboflow.com/foodobjectdetection-gbrbd/foodobjectdetectiondataset/8
+Ultralytics:  Ultralytics YOLO Docs – https://docs.ultralytics.com
+              Ultralytics official website – https://www.ultralytics.com
