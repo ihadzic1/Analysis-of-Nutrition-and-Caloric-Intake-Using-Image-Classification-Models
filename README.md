@@ -7,6 +7,10 @@ Problem:
 Goal:
 >Train a model that detects food items from images and outputs the caloric information.
 
+Context:
+>The growing prevalence of diet-related health issues such as obesity and diabetes requires effective tools for monitoring and improving dietary habits. Traditional methods for tracking calorie intake are manual, time-consuming, and prone to inaccuracies. Advances in computer vision and machine learning provide an opportunity to automate nutrition tracking by analyzing images of food, enabling users to easily estimate caloric intake without manual logging. This project aims to leverage image classification models to detect food items and calculate their caloric values, contributing to better health management through technology.
+
+
 Relevant datasets and sources include:
 >Custom Roboflow dataset and a datset from Roboflow Universe (See more in DATASET.md),
 >USDA FoodData Central (Caloric information)
