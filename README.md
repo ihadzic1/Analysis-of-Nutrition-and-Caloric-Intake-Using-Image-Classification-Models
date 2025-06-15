@@ -1,6 +1,6 @@
 # Analysis-of-Nutrition-and-Caloric-Intake-Using-Image-Classification-Models
 ---
-## 📌 Problem Definition
+## 📌 Introduction
 Problem: 
 >The rise in diet-related health issues such as obesity and diabetes highlights the need for better tools to support healthy eating. Traditional calorie-tracking methods are tedious and often inaccurate. This project addresses the problem of automating nutrition and caloric estimation from food images using machine learning.
 
