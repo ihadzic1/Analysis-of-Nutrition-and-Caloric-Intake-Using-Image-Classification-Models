@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Irhad Hadžić,Tarik Dukić,Haris Šahinović,Faris Muratović
+Copyright (c) 2025 Irfan Hadžić,Tarik Dukić,Haris Šahinović,Faris Muratović
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
