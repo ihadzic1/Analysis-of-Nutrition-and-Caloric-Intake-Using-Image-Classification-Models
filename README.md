@@ -69,7 +69,7 @@ Each team member contributed to
 
 ---
 
-## ✅ Conclusions & Future Steps (10%)
+## ✅ Conclusions & Future Steps
 Key Takeaways:
 >The system effectively classifies food images and estimates caloric content with reasonable accuracy on select food classes which acts as a working prototype. YoloV8 is an effective way for real-time object detection.
 
