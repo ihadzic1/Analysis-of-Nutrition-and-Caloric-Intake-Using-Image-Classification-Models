@@ -237,9 +237,9 @@ print(f"\nTotal number of calories: {total_calories} cal")
 For questions or collaborations, feel free to reach out:
 
 - Email:
-- fmuratovic@etf.unsa.ba,
+- fmuratovic2@etf.unsa.ba,
 - ihadzic1@etf.unsa.ba,
-- hsahinovic@etf.unsa.ba,
+- hsahinovic2@etf.unsa.ba,
 - tdukic1@etf.unsa.ba
 
 
